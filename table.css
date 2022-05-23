@@ -1,0 +1,90 @@
+body {
+    /* The image used */
+    /* background-image: url("images/online voting-1.jpg"); */
+
+    /* Control the height of the image */
+    min-height: 380px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .headerFont {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+  }
+
+  .subFont {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+
+  }
+
+  .specialHead {
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .normalFont {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  a {
+    color: #3aadcf;
+    text-decoration: none;
+  }
+
+  a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  /* #selectcolor{
+      color:green;
+    } */
+
+  /* visited link */
+  a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  /* selected link */
+  a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  .helloTH th {
+    background-color: green;
+    color: white;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: solid 2px black;
+  }
+
+  th,
+  td {
+    text-align: center !important;
+    padding: 8px !important;
+  }
+
+  tr {
+    padding: 1rem;
+    border-top: solid 2px black;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
